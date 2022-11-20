@@ -19,7 +19,7 @@
   - Переключатель (class="UIKV-switch")
  - Радио-кнопки (class="UIKV-radio")
  - Модальные окна (class="UIKV-modal-window")
- - Всплывающие блоки
+- Всплывающие блоки
   - Обычный со стрелкой вверх (class="UIKV-context-message-common-up")
   - Обычный со стрелкой вниз (class="UIKV-context-message-common-down">)
   - Красный со стрелкой вверх (class="UIKV-context-message-red-up")
