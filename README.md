@@ -1,10 +1,10 @@
 # simple-UI-Kit-by-6ondawave9
 ## Простой UI-Kit на чистом JS+CSS
 **Уставновка версии для разработчика**
-1. <link rel="stylesheet" href="UIKV-style.css">
+1. rel="stylesheet" href="UIKV-style.css"
 2. <script src="UIKV-script.js"></script>
 **Уставновка минифицированной версии**
-1. <link rel="stylesheet" href="UIKV-style-minified.css">
+1. rel="stylesheet" href="UIKV-style-minified.css"
 2. <script src="UIKV-script-minified.js"></script>
 **В UI-Kit входят**
 - Кнопки
