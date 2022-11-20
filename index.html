@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>UIKV</title>
+    <link rel="stylesheet" href="UIKV-style-minified.css">
+    <script src="UIKV-script-minified.js"></script>
+</head>
+<body>
+    <button class="UIKV-btn-common">Edit</button>
+    <button class="UIKV-btn-green">Confirm</button>
+    <button class="UIKV-btn-red">Delete</button>
+    <input type="text" placeholder="Type here" class="UIKV-input">
+    <!---->
+    <br>
+    <br>
+    <!---->
+    <textarea placeholder="Type here" class="UIKV-textarea"></textarea>
+    <!---->
+    <br>
+    <br>
+    <!---->
+    <input type="checkbox" class="UIKV-checkbox">
+    <input type="radio" name="test" class="UIKV-radio">
+    <input type="radio" name="test" class="UIKV-radio">
+    <input type="checkbox" class="UIKV-switch">
+    <!---->
+    <br>
+    <br>
+    <!---->
+    <div style="width: 300px; height: 150px;" class="UIKV-modal-window">
+        <h2>Lorem ipsum dolor sit!</h2>
+        Lorem ipsum dolor sit amet consectetur elitao Laborum temporibus facere dicta ex odiorum dolorum, reiciendis minus quis praesentium sint placeat tenetur, pariatur dolore nulla dolor et perferendis qui fugiat?
+    </div>
+    <!---->
+    <br>
+    <br>
+    <!---->
+    <div class="UIKV-context-message-common-up">Common message!</div>
+    <div class="UIKV-context-message-common-down">Common message!</div>
+    <!---->
+    <br>
+    <br>
+    <!---->
+    <div class="UIKV-context-message-red-up">Red message!</div>
+    <div class="UIKV-context-message-red-down">Red message!</div>
+    <!---->
+    <br>
+    <br>
+    <!---->
+    <select class="UIKV-native-select">
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+    </select>
+    <div class="UIKV-custom-select" id="UIKV-custom-select-1"></div>
+    <script>
+        const customSelect = new UIKVCustomSelect({
+            blockId: 'UIKV-custom-select-1',
+            options: ['Option 1', 'Option 2', 'Option 3'],
+            defaultValue: 'Option 2'
+        })
+    </script>
+    <!---->
+    <div class="UIKV-custom-select" id="UIKV-custom-select-2"></div>
+    <script>
+        const customSelect2 = new UIKVCustomSelect({
+            blockId: 'UIKV-custom-select-2',
+            options: ['По возрастанию цены', 'По убыванию цены', 'По алфавиту', 'По популярности'],
+            defaultValue: 'По умолчанию'
+        })
+    </script>
+    <!---->
+    <br>
+    <br>
+    <input class="UIKV-range" type="range">
+    <progress max="100" value="0" class="UIKV-progress">
+    <script>
+        let a = document.querySelector('progress')
+        let b = true
+        setInterval(()=>{
+            if (b) {
+                if (a.value>99) {
+                    b = false
+                }
+                a.value++
+            } else {
+                if (a.value<1) {
+                    b = true
+                }
+                a.value--
+            }
+        },30)
+    </script>
+</body>
+</html>
