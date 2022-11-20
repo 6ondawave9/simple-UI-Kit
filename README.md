@@ -28,7 +28,8 @@
   - Нативный (class="UIKV-native-select")
   - Кастомный (class="UIKV-custom-select")
 - Input range (class="UIKV-range")
-- Прогресс-бары (class="UIKV-progress")\
+- Прогресс-бары (class="UIKV-progress")
+\\
 **Использование кастомного выпадающего списка**
 1. Создайте блок и задайте ему id
 2. Создайте объект класса UIKVCustomSelect
