@@ -21,7 +21,7 @@
  - Модальные окна (class="UIKV-modal-window")
 - Всплывающие блоки
   - Обычный со стрелкой вверх (class="UIKV-context-message-common-up")
-  - Обычный со стрелкой вниз (class="UIKV-context-message-common-down">)
+  - Обычный со стрелкой вниз (class="UIKV-context-message-common-down")
   - Красный со стрелкой вверх (class="UIKV-context-message-red-up")
   - Красный со стрелкой вниз (class="UIKV-context-message-red-down")
 - Выпадающие списки
