@@ -60,7 +60,7 @@
 
 .UIKV-textarea {
     outline: none;
-    transition: all ease 0.3s;
+    transition: border ease 0.3s;
     font-size: 14px;
     background-color: var(--light-color);
     border: 2px solid #ffffff00;
