@@ -294,6 +294,8 @@
     border: 2px solid #ffffff00;
     border-radius: 10px;
     padding: 2px 10px 2px 10px;
+    display: flex;
+    align-items: center;
 }
 .UIKV-custom-select-box:hover {
     border: 2px solid var(--dark-color);
